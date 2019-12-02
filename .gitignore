@@ -1,0 +1,6 @@
+__pycache__/
+.devcontainer
+.idea/
+.vscode/
+parsers/**/results/*.csv
+.DS_Store
