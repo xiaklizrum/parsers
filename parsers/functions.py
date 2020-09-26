@@ -20,3 +20,7 @@ def get_tags_by_url(url, tag, _class):
     except AttributeError:
         tags = []
     return tags
+
+
+def escape(text):
+    return str(text).replace("\"", "\\").replace("\'", "\"")

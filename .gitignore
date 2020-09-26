@@ -4,3 +4,4 @@ __pycache__/
 .vscode/
 parsers/**/results/*.csv
 .DS_Store
+files/
