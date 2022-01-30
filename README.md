@@ -1,7 +1,7 @@
 # Parsers bundle
 ## Current list
 * [AMOcrm-partners](parsers/amocrm-partners)
-* [jsontoxlsx](parsers/jsontoxlsx)
+* [json2xlsx](parsers/json2xlsx)
 * [zadarma](parsers/zadarma-lite)
 ## Run docker container
 ```

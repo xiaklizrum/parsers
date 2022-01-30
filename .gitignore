@@ -1,7 +1,3 @@
 __pycache__/
-.devcontainer
-.idea/
-.vscode/
-parsers/**/results/*.csv
-.DS_Store
-files/
+parsers/**/files/**/*.xlsx
+parsers/**/files/**/*.json
