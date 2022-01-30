@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 
 
 def get_content_by_url(url):
+    # TODO: custom User-Agent via dotenv
     r = requests.get(url, headers={
         'User-Agent': (
             'Mozilla/5.0'
@@ -14,9 +15,9 @@ def get_content_by_url(url):
 
 
 def get_tags_by_url(url, tag, _class):
-    city_soup = BeautifulSoup(get_content_by_url(url), 'html.parser')
+    soup = BeautifulSoup(get_content_by_url(url), 'html.parser')
     try:
-        tags = city_soup.find_all(tag, _class)
+        tags = soup.find_all(tag, _class)
     except AttributeError:
         tags = []
     return tags
